@@ -1,0 +1,146 @@
+
+body {
+  background-color: #000000;
+}
+
+p {
+  color: gainsboro;
+}
+
+.banner {
+  height: 600px;
+  background-image: linear-gradient(rgba(0, 0, 0, .6), rgba(49, 168, 221, .2)), url(../images/banner.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-top: 60px;
+  border-bottom: 1px solid #33A8DB80;
+}
+
+.banner .banner-content {
+  width: 600px;
+  margin: auto;
+  text-align: center;
+  color: gainsboro;
+}
+
+.banner h1 {
+  font-weight: 900px;
+  font-size: 2.5rem;
+  text-transform: uppercase;
+  color: transparent;
+  background: -webkit-linear-gradient(#33A8DB, #1472B7);
+  background-clip: text;
+  -webkit-background-clip: text;
+}
+
+.banner p {
+  font-weight: 400px;
+  line-height: 23.5px;
+  font-size: 1.25rem;
+  margin: 16px 0 24px;
+}
+
+.banner .banner-content button {
+  font-size: 1rem;
+  font-weight: 700;
+  color:  #31A8DD;
+  text-transform: uppercase;
+  padding: 16px 32px;
+  letter-spacing: 4px;
+  background-color: transparent;
+  border-image: linear-gradient(#3BA1CD, #1572B7);
+  border-image-slice: 10;
+  border-radius: 30px;
+}
+
+#course-content {
+  width: 800px;
+  text-align: center;
+}
+
+#course-content .modules-list {
+  margin: 24px auto;
+}
+
+#course-content .modules-list .module {
+  color: gainsboro;
+  width: 535px;
+  height: 57px;
+  margin: 0 auto 24px;
+  padding: 16px;
+  border: 1px solid #33A8DB;
+  background-color: #252525;
+  border-radius: 57px;
+  box-shadow: inset -5px 6px 8px rgba(0, 0, 0, .7);
+}
+
+#course-content .modules-list .module span {
+  color: #33A8DB;
+}
+
+section {
+  margin: 100px auto;
+}
+
+h2 {
+  font-weight: 700;
+  font-size: 2rem;
+  text-transform: uppercase;
+  line-height: 37.57px;
+  color: #33A8DB;
+  letter-spacing: 4px;
+  margin-bottom: 24px;
+}
+
+#transform-world {
+  background-image: url(../images/woman-code.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  width: 1440px;
+  height: 363px;
+  padding: 200px;
+  border-top: 1px solid #33A8DB80;
+  border-bottom: 1px solid #33A8DB80;
+}
+
+#transform-world p {
+  color: gainsboro;
+  text-align: 111px 198px;
+  text-transform: lowercase;
+  text-shadow: 3px 2px #33A8DB;
+  max-width: 244px;
+  height: 141px;
+  font-weight: 900;
+  font-size: 2.5rem;
+  line-height: 46.96px;
+}
+
+#professional-challenges {
+  text-align: center;
+  width: 746px;
+}
+
+#professional-challenges img {
+  width: 659px;
+  height: 429px;
+  background-position: 1685px 390px;
+}
+
+footer {
+  text-align: center;
+  background-image: linear-gradient(rgba(50, 168, 219, .0), rgba(50, 168, 219, .2));
+  border-top: 1px solid #33A8DB80;
+  padding: 60px 0;
+}
+
+footer .dio-logo {
+  width: 310px;
+}
+
+footer a {
+  color: #33A8DB;
+  font-size: 1rem;
+  font-weight: 700;
+  text-decoration: none;
+}
